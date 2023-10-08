@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MyForm.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Your name and password must contain at least 2 symbols and you have to agree with our privacy rules.</h1>
+        <form class="myForm">
+            <input type="text" id="nick" placeholder="Enter your name">
+            <input type="password" id="psw" placeholder="Enter your password">
+            <div class="privacy">
+                <input type="checkbox" id="agree">
+                <label for="agree"></label>
+                <span>I am agree with our privacy rules</span>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="./MyForm.js"></script>
+</body>
+</html>
